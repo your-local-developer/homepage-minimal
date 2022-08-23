@@ -10,7 +10,6 @@ module.exports = {
     extend: {
       screens: {
         "xs": "460px",
-        "lg": "1149px"
       },
       fontFamily: {
         sans: ["'Comfortaa', cursive", ...defaultTheme.fontFamily.sans],
@@ -19,6 +18,5 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio')
   ],
 }

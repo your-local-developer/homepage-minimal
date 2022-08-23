@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@tailwindcss/aspect-ratio': ^0.4.0
   autoprefixer: ^10.4.8
   postcss: ^8.4.16
   tailwindcss: ^3.1.8
@@ -9,7 +8,6 @@ specifiers:
   vite: ^3.0.7
 
 devDependencies:
-  '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.1.8
   autoprefixer: 10.4.8_postcss@8.4.16
   postcss: 8.4.16
   tailwindcss: 3.1.8_postcss@8.4.16
@@ -46,14 +44,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-    dev: true
-
-  /@tailwindcss/aspect-ratio/0.4.0_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-WJu0I4PpqNPuutpaA9zDUq2JXR+lorZ7PbLcKNLmb6GL9/HLfC7w3CRsMhJF4BbYd/lkY6CfXOvkYpuGnZfkpQ==}
-    peerDependencies:
-      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
-    dependencies:
-      tailwindcss: 3.1.8_postcss@8.4.16
     dev: true
 
   /acorn-node/1.8.2:
